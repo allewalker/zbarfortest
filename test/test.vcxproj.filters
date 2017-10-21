@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\config.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\image.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\img_scanner.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\refcnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\scanner.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\symbol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\bch15_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\binarize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\isaac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\qrdec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\qrdectxt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\rs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\qrcode\src\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\codabar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\code39.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\code93.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\code128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\databar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\ean.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\i25.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\pdf417.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\decoder\src\qr_finder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\zbar\src\os_port.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\zbar\include\debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\img_scanner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\processor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\qrcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\refcnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\svg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\symbol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\video.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\zbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\codabar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\code39.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\code93.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\code128.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\databar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\ean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\i25.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\pdf417.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\pdf417_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\decoder\include\qr_finder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\qrcode\include\bch15_5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\qrcode\include\binarize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\qrcode\include\isaac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\qrcode\include\qrdec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\qrcode\include\rs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\qrcode\include\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\zbar\include\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
